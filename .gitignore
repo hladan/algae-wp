@@ -1,0 +1,14 @@
+*.class
+*.pyc
+*.pyo
+.htaccess
+wp-content/backup/*
+wp-content/cache/*
+wp-content/upgrade/*
+wp-content/uploads/*
+_db
+sitemap.*
+wp-config.php
+*.DS_Store
+*[Tt]humbs.db
+*.Trashes
