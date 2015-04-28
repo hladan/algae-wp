@@ -2,10 +2,6 @@
 *.pyc
 *.pyo
 .htaccess
-wp-content/backup/*
-wp-content/cache/*
-wp-content/upgrade/*
-wp-content/uploads/*
 _db
 sitemap.*
 wp-config.php
