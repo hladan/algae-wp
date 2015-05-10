@@ -1006,7 +1006,9 @@ html[xmlns] .slides {
     100% { transform: scale(1); }
 }
 .footer_container{
-    background:#d8621f url(images/footerbg.png) center repeat-y;
+  /*  background:#d8621f url(images/footerbg.png) center repeat-y;*/
+    /* The background color of the footer is changed to #143336 and the background image is removed.*/
+    background:#143336 center repeat-y;
     border-bottom:1px solid #8f390a;
 }
 .footer{
@@ -1142,7 +1144,8 @@ html[xmlns] .slides {
     list-style:none;
 }
 .bottom_footer_container{
-    background:#ad4104;
+/* The background color is changed to #143336 */ 	
+    background:#143336;
     border-top:1px solid #fb955d;
 }
 .bottom_footer_container ul.social_logos{
