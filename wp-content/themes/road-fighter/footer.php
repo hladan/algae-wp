@@ -20,7 +20,7 @@
                 <div class="grid_24">
                     <div class="copyrightinfo">
                         <p class="copyright"><?php _e('Realized by','rdf'); ?><a href="<?php echo urldecode('http://www.wordpress.com'); ?>" target="_blank">
-                        	                 <?php _e('Wordpress','rdf'); ?></a> <?php _e('&copy; 2015 marinature.com','rdf'); ?></p>
+                        	                 <?php _e('Wordpress','rdf'); ?></a> <?php _e('&copy; 2015 marinature.com, All Rights Reserved','rdf'); ?></p>
 
                     </div>
                 </div>
