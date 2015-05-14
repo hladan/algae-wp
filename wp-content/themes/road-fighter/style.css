@@ -150,10 +150,17 @@ th {
     text-shadow:0 1px 0 #fff;
 }
 .menu-wrapper{
-    background:rgba(255,255,255,0.85);
-    background:url(images/menu-bg.png) repeat;
-    border:3px solid #e9ceb2;
-    border-radius:7px;
+  /*  background:rgba(255,255,255,0.85);*/
+  /*  background:url(images/menu-bg.png) repeat;*/
+  /*  border:3px solid #e9ceb2;*/
+  /*  border:3px solid rgba(255,255,255,.5);*/
+  /*  border-radius:7px;*/
+ 
+  /* Hamed's code */
+  /* background image of the navigation menu changed to "navbg.png". */
+    background:url(images/navbg.png) repeat;
+    padding:3px;  
+  /* End of Hamed's code */
     -moz-box-shadow:    2px 3px 8px 0px rgba(0,0,0,0.3);
     -webkit-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.3);
     box-shadow:         2px 3px 8px 0px rgba(0,0,0,0.3);
@@ -197,17 +204,34 @@ th {
     position:relative;
     display:inline;
     font-size:16px;
+    
+    /* Hamed's code */
+    /* Used "border-radius" to make interesting shapes around the navigation menu items.
+     * The color of the borders is set to a dark turquoise.*/
+    border-radius:10px 25px 10px;
+    padding-top:16px;
+    padding-bottom:15px;
+    border:1px solid #1A5A53;   
+    /*End of Hamed's code*/ 
     margin-left:0;
     margin-bottom:0;
     margin-right:0px;
 }
 #menu .ddsmoothmenu li a {
-    color:#444;
+    /* color:#444; */
+    /* Hamed's code */
+    /* The font color of the menu items changed to white. */ 
+    color: #FFFFFF;
+    /* End of Hamed's code */
     text-decoration:none;
     padding: 14.5px 16px 17px 18px;
 }
-#menu li.current-menu-item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
-    color: #f6860e;
+#menu li.current-menu-item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {   
+    /* color: #f6860e; */
+    /* Hamed's code */
+    /* The font color of the menu items changes to a bright green when the mouse hovers the items. */ 
+    color: #88D088;
+    /* End of Hamed's code */ 
 }
 #menu .ddsmoothmenu li > ul {
     margin-top:7px;
@@ -219,7 +243,10 @@ th {
 }
 #menu li.current-menu-item a:hover, #menu li.current-menu-parent a:hover, #menu li.current_page_parent a:hover, #menu li a:hover.selected {
     text-decoration:none;
-    color: #f6860e;
+ /* Hamed's code */
+ /* We have already set a color when the mouse hovers the menu items. */     
+ /*   color: #f6860e; */
+ /* End of Hamed's code */
 }
 #menu .ddsmoothmenu li li:first-child{
     padding-top:10px;
@@ -277,10 +304,16 @@ th {
     display:inline-block;
 }
 #menu .ddsmoothmenu li li a:link, #menu .ddsmoothmenu li li a:visited {
-    color:#565555;
+   /* Hamed's code */
+   /* We don't need the following color */
+   /* color:#565555;*/
+   /* End of Hamed's code */ 
 }
 #menu .ddsmoothmenu li li a.selected, #menu .ddsmoothmenu li li a:hover {
-    color: #f6860e;
+   /* Hamed's code */
+   /* We don't need the following color */
+   /* color: #f6860e;*/
+   /* End of Hamed's code */
     text-shadow:none;
 }
 #menu .ddsmoothmenu li ul {
