@@ -386,6 +386,9 @@ th {
 
 /*      FlexSlider Necessary Styles  */
 .slider-container{
+	/* Hamed's code */
+	background: #217574;
+    /* End of Hamed's code */
     overflow:hidden;
     padding-bottom:10px;
 }
@@ -602,6 +605,11 @@ html[xmlns] .slides {
     cursor: default;
     background:url(images/pagination.png) 0 -12px no-repeat;
 }
+/* Hamed's code */
+.home_container{
+	background: #217574; 
+}
+/* End of Hamed's code */
 .home-content .page_info{
     background:url(images/shadow-index.png) bottom center no-repeat;
     margin-bottom:50px;

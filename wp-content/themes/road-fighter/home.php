@@ -59,6 +59,10 @@
     <div class="container_24">
         <div class="grid_24">
             <div class="home-content">
+               <?php
+               /* Hamed's code */
+               /* We don't need the section "page info". */
+               /**
                 <div class="page_info">
                     <?php if (roadfighter_get_option('roadfighter_page_main_heading') != '') { ?>
                         <h1><?php echo stripslashes(roadfighter_get_option('roadfighter_page_main_heading')); ?></h1>
@@ -70,8 +74,11 @@
                                 <?php } else { ?>
                         <h3><?php _e('Just a Click and your website is ready for use. Your Site is faster to built, easy to use & Search Engine Optimized.','rdf'); ?></h3>
                                 <?php } ?>
-                </div>
+                </div>                          
                 <div class="clear"></div>
+			    */ 
+			    /* End of Hamed's code */
+			    ?>
                 <div class="feature-content">
                     <div class="grid_8 alpha">
                         <div class="feature-content-inner first">
