@@ -25,6 +25,11 @@ body {
     color:#373636;
     background:url(images/bg.png) repeat;
     background-attachment:fixed;
+    /* Hamed's code */
+    /* The browser scrolls only vertically, and not horizontally. */
+    overflow-y:scroll;
+    overflow-x:hidden;
+    /* End of Hamed's code */
 }
 h1, h2, h3, h4, h5, h6 {
     font-family:"Elampa", verdana, Arial, sans-serif;
@@ -95,7 +100,10 @@ th {
 }
 .header_container{
     position:relative;
-    border-top:9px solid #f6860e;
+    /* Hamed's code */
+    /* We don't need the orange border in the top of the header. */
+    /* border-top:9px solid #f6860e; */
+    /* End of Hamed's code */
 }
 .header_container.not_home{
     background:#2f2f2f url(images/header-bg.png) repeat-y;
@@ -120,6 +128,70 @@ th {
 .header_wrapper .logo{
     margin-top:2px;
 }
+/* Hamed's code */
+.my-outer-header{	
+	margin-top:0;
+	margin-right:auto;
+	position:relative;
+	color:white;
+	height:115px;
+}
+/* End of Hamed's code */
+/* Hamed's code */
+.my-outer-header .headerleft{
+	height:115px;
+	width:50%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#143637;
+}
+/* End of Hamed's code */
+/* Hamed's code */
+.my-outer-header .headerright{
+	height:115px;
+	width:50%;
+	position:absolute;
+	left:auto;
+	top:0;
+	right:0;
+	background-color: #759ea2;
+}
+/* End of Hamed's code */
+/* Hamed's code */
+.my-outer-header .my-header-wrapper{
+    background-image:url(images/hwater.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+	height:115px;
+	position:relative;
+	z-index:2;
+    margin:0 auto;
+	text-align:left;
+}
+/* End of Hamed's code */
+/* Hamed's code */
+.my-outer-header .topnav{
+	margin-top: 10px;
+	margin-right: 10px;
+	float:right;
+}
+/* End of Hamed's code */
+/* Hamed's code */
+.logo{
+ 	height:65px;
+ 	width:230px;
+    background:url(images/mari-logo.png);
+    float:left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* End of Hamed's code */
+/* Hamed's code */
+.light-green{
+	color: #64F464;
+}
+/* End of Hamed's code */
 .header_wrapper .logo img{
     max-width:300px;
     max-height:80px;
@@ -150,21 +222,22 @@ th {
     text-shadow:0 1px 0 #fff;
 }
 .menu-wrapper{
-  /*  background:rgba(255,255,255,0.85);*/
-  /*  background:url(images/menu-bg.png) repeat;*/
-  /*  border:3px solid #e9ceb2;*/
-  /*  border:3px solid rgba(255,255,255,.5);*/
-  /*  border-radius:7px;*/
- 
-  /* Hamed's code */
-  /* background image of the navigation menu changed to "navbg.png". */
-    background:url(images/navbg.png) repeat;
-    padding:3px;  
-  /* End of Hamed's code */
+	/* Hamed's code */
+    /* background image of the navigation menu changed to "navbg.png". */
+	background:url(images/navbg.png) repeat;
+    padding:3px;     
+    /* End of Hamed's code */
+    
+    /* Original version of this block 
+    background:rgba(255,255,255,0.85);
+    background:url(images/menu-bg.png) repeat;
+    border:3px solid #e9ceb2;
+    border:3px solid rgba(255,255,255,.5);
+    border-radius:7px;
     -moz-box-shadow:    2px 3px 8px 0px rgba(0,0,0,0.3);
     -webkit-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.3);
     box-shadow:         2px 3px 8px 0px rgba(0,0,0,0.3);
-    margin-top:25px;
+    margin-top:25px;*/
 }
 .mobieMenu{
     margin:0 auto;
@@ -3056,9 +3129,23 @@ ul.paging a.active, ul.paging a.current {
         top:0px;
         left:16%;
     }
+    /* Hamed's code */
     .menu-wrapper {
-        margin-top:12px;
+        /* margin-top:12px;*/
     }
+    /* End of Hamed's code */
+    /* Hamed's code */
+    .my-outer-header .topnav{
+	    float:left;
+	    margin-left:50px;
+    }
+    /* End of Hamed's code */
+    /* Hamed's code */
+    .logo {
+   	    text-align:center;
+        margin-left:50px;
+    }
+    /* End of Hamed's code */
     .slider-wrapper {
         margin-bottom:290px;
     }
@@ -3133,7 +3220,7 @@ ul.paging a.active, ul.paging a.current {
         padding:20px 10px;
         padding-bottom:30;
         width:100%;
-        margin-top:0;
+        margin-top:0;       
     }
     .page-content .content-bar .contactform input[type="text"], .page-content .content-bar .contactform input[type="email"]  {
         width: 242px;
