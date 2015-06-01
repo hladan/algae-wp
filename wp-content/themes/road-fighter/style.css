@@ -1441,6 +1441,13 @@ ul.social_logos {
     margin-bottom:7px;
     padding-top:1px;
     padding-left:65px;
+    /* Hamed's code */
+    /* The font size of post titles changed to 24px. */
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #143637;
+    /* End of Hamed's code */
 }
 .content-bar .post .post_title a {
     color:#010101;
@@ -1462,7 +1469,11 @@ ul.social_logos {
 .content-bar .post .post_content p {
     margin-bottom:15px;
     color:#373737;
-    font-size:13px;
+    /*font-size:13px;*/
+    /* Hamed's code */
+    /* The font size of post contents changed to 14px. */ 
+    font-size:14px;
+    /* End of Hamed's code */
     line-height:22px;
     text-align:justify;
 }

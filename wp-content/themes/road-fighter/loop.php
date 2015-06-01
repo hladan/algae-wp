@@ -3,7 +3,10 @@
         <!--Start post-->
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <div class="post_heading_wrapper">
-                <h1 class="post_title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+                <!-- Hamed's code -->
+                <!-- The following title is for post excerpts (that end with "Continue Reading..."). -->               
+                <div class="post_title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
+                <!-- End of Hamed's code -->
                 <div class="post_date">
                     <ul class="date">
                         <li class="day"><?php echo get_the_time('d') ?></li>

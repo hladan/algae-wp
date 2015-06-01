@@ -33,7 +33,10 @@
                                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                     <div class="post_thumbnail"><?php the_post_thumbnail(); ?></div>
                                     <div class="post_heading_wrapper">
-                                        <h1 class="post_title"><?php the_title(); ?></h1>
+                                        <!-- Hamed's code -->
+                                        <!-- The following title is for posts. [compare to the title at loop.php]-->
+                                        <div class="post_title"><?php the_title(); ?></div>
+                                        <!-- End of Hamed's code -->
                                         <div class="post_date">
                                             <ul class="date">
                                                 <li class="day"><?php echo get_the_time('d') ?></li>
