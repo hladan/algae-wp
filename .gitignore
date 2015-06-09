@@ -1,3 +1,4 @@
-*.class
-*.pyc
-*.pyo
+wp-config.php
+*.DS_Store
+.gitignore
+.project
