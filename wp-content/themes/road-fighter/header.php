@@ -5,7 +5,7 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  */
-?>
+?> 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html <?php language_attributes(); ?>>
     <head>
@@ -55,7 +55,7 @@
              <a href="#" class="mobile_nav closed"><?php _e('Pages Navigation Menu','rdf'); ?><span></span></a>
              <?php roadfighter_nav(); ?> 
          </div>   
-     </div>                      
+     </div>                              
 <?php /* End of Hamed's code */ ?>
 <?php /* Original version of header.php */
 /*
