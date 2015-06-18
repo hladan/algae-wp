@@ -32,8 +32,8 @@
     <div class="container_24">
         <div class="grid_24">
             <div class="page-content">
-                <div class="grid_17 alpha">
-                    <div class="content-bar">   
+                   <div class="grid_17 alpha">
+                        <div class="content-bar"> 
                         <!--Start Post-->
                         <?php get_template_part('loop', 'blog'); ?>   
                         <div class="clear"></div>
@@ -42,9 +42,9 @@
                             </span> <span class="nav-next">
                                 <?php previous_posts_link(__('Newer posts &rarr;', 'rdf')); ?>
                             </span> </nav>	
-                    </div>
-                </div>
-                <div class="grid_7 omega">
+                       </div>
+                  </div>
+                   <div class="grid_7 omega">
                     <!--Start Sidebar-->
                     <?php get_sidebar(); ?>
                     <!--End Sidebar-->

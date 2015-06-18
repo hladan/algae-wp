@@ -37,12 +37,13 @@
                     <!--Start Comment box-->
                     <?php comments_template(); ?>
                     <!--End Comment box-->	
+              
                 </div>
-            <div class="grid_7 omega">
-                <!--Start Sidebar-->
-                <?php get_sidebar(); ?>
-                <!--End Sidebar-->
-            </div>
+                 <div class="grid_7 omega">
+                    <!--Start Sidebar-->
+                    <?php get_sidebar(); ?>
+                    <!--End Sidebar-->
+                </div>
         </div>
     </div>
 	    <div class="clear"></div>

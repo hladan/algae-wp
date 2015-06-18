@@ -5,6 +5,22 @@
  * 
  */
 ?>
+<?php
+/* Hamed:
+category.php: 
+this is a file from which the file "loop.php" is called. The file "category.php" is accountable for representing a list
+of all posts. This file represents the page where the excerpts and thumbnails of all posts are listed. 
+We removed the sidebar from this page by removing this code from "category.php":
+                  <div class="grid_7 omega">
+                    <!--Start Sidebar-->
+                    <?php get_sidebar(); ?>
+                    <!--End Sidebar-->
+                  </div> 
+We also changed a little the layout of this page by removing this code from "category.php":
+                  <div class="grid_17 alpha">  
+                  </div>
+*/
+?>
 <?php get_header(); ?>
 <div class="page_heading_container">
     <div class="container_24">
@@ -21,8 +37,8 @@
     <div class="container_24">
         <div class="grid_24">
             <div class="page-content">
-                <div class="grid_17 alpha">
-                    <div class="content-bar">   
+                
+                        <div class="content-bar"> 
                         <?php if (have_posts()) : ?>
                             <?php
                             $category_description = category_description();
@@ -41,13 +57,9 @@
                             </span> <span class="nav-next">
                                 <?php previous_posts_link(__('Newer posts &rarr;', 'rdf')); ?>
                             </span> </nav>	
-                    </div>
-                </div>
-                <div class="grid_7 omega">
-                    <!--Start Sidebar-->
-                    <?php get_sidebar(); ?>
-                    <!--End Sidebar-->
-                </div>
+
+                          </div>
+                 
             </div>
         </div>
         <div class="clear"></div>

@@ -24,7 +24,7 @@
             <div class="grid_24">
                 <div class="page-content">
                     <div class="grid_17 alpha">
-                        <div class="content-bar">   
+                        <div class="content-bar"> 
                             <?php
                             /* Queue the first post, that way we know who
                              * the author is when we try to get their name,
@@ -70,8 +70,8 @@
                             </span> <span class="nav-next">
                                 <?php previous_posts_link(__('Newer posts &rarr;', 'rdf')); ?>
                             </span> </nav>
-                    </div>
-                </div>
+                 </div>
+               </div>
                 <div class="grid_7 omega">
                     <!--Start Sidebar-->
                     <?php get_sidebar(); ?>

@@ -35,7 +35,7 @@
         <div class="grid_24">
             <div class="page-content">
                 <div class="grid_17 alpha">
-                    <div class="content-bar">   
+                        <div class="content-bar"> 
                         <?php if (have_posts()): ?>
 
                             <?php
@@ -57,13 +57,14 @@
                                     <?php previous_posts_link(__('Newer posts &rarr;', 'rdf')); ?>
                                 </span> </nav>
                         <?php endif; ?>
-                    </div>
+                   </div>
                 </div>
                 <div class="grid_7 omega">
                     <!--Start Sidebar-->
                     <?php get_sidebar(); ?>
                     <!--End Sidebar-->
                 </div>
+
             </div>
         </div>
         <div class="clear"></div>

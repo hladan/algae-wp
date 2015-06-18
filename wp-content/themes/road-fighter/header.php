@@ -40,7 +40,7 @@
          <div class="headerleft"></div>
          <div class="headerright"></div>                               
          <div class="my-header-wrapper">    
-      		  <a href="http://marinature.com">
+      		  <a href="http://algaeing.com">
       			 <div class="logo"></div>	
       		  </a>
               <div class="topnav">

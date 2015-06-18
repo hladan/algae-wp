@@ -10,6 +10,19 @@
  *
  */
 ?>
+<?php
+/* Hamed: 
+ single.php:
+This file is accountable for representing the post that user selects on the posts page. 
+By clicking a thumbnail or the phrase "Continue reading …", this file is executed. 
+We removed the sidebar from loaded page by removing the following code from single.php:
+                   <div class="grid_7 omega">
+                    <!--Start Sidebar-->
+                    <?php get_sidebar(); ?>
+                    <!--End Sidebar-->
+                  </div>  
+ */ 
+?>
 <?php get_header(); ?>
 <div class="page_heading_container">
     <div class="container_24">
@@ -25,18 +38,17 @@
     <div class="container_24">
         <div class="grid_24">
             <div class="page-content">
-                <div class="grid_17 alpha">
+                  <div class="grid_17 alpha">
                     <div class="content-bar">   
-                        <!-- Start the Loop. -->
+                        <?php /* Start the Loop. */ ?>
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                                <!--Start post-->
+                                <?php /* Start post */ ?>
                                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                     <div class="post_thumbnail"><?php the_post_thumbnail(); ?></div>
                                     <div class="post_heading_wrapper">
-                                        <!-- Hamed's code -->
-                                        <!-- The following title is for posts. [compare to the title at loop.php]-->
+                                        <?php /* Hamed: the following title is for posts. 
+										  [compare to the title at loop.php] */?>
                                         <div class="post_title"><?php the_title(); ?></div>
-                                        <!-- End of Hamed's code -->
                                         <div class="post_date">
                                             <ul class="date">
                                                 <li class="day"><?php echo get_the_time('d') ?></li>
@@ -67,23 +79,19 @@
                         <?php endif; ?>
                         <div class="clear"></div>
                         <?php wp_link_pages(array('before' => '<div class="clear"></div><div class="page-link"><span>' . __('Pages:', 'rdf') . '</span>', 'after' => '</div>')); ?>
-                        <!--Start Comment box-->
+                        <?php /* Start Comment box */ ?>
                         <?php comments_template(); ?>
-                        <!--End Comment box-->
+                        <?php /* End Comment box */ ?>
                         <div class="clear"></div>
                         <nav id="nav-single"> <span class="nav-previous">
                                 <?php previous_post_link('%link', __('<span class="meta-nav">&larr;</span> Previous Post ', 'rdf')); ?>
                             </span> <span class="nav-next">
                         <?php next_post_link('%link', __('Next Post <span class="meta-nav">&rarr;</span>', 'rdf')); ?>
                             </span> </nav>
-                        <!--End post-->
+                        <?php /* End post */ ?>
                     </div>
-                </div>
-                <div class="grid_7 omega">
-                    <!--Start Sidebar-->
-                    <?php get_sidebar(); ?>
-                    <!--End Sidebar-->
-                </div>
+                 </div>
+
             </div>
         </div>
         <div class="clear"></div>
