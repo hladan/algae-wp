@@ -13,13 +13,19 @@
             <ul class="slides">
                 <li>
                     <?php if (roadfighter_get_option('roadfighter_slideimage1') != '') { ?>
+                        <?php 
+			             /* Hamed:
+						  * We don't need the slider image to link us to a page.						  
                         <a href="<?php if (roadfighter_get_option('roadfighter_Sliderlink1') != '') {
                         echo esc_url(roadfighter_get_option('roadfighter_Sliderlink1'));
                     } ?>" >
+						 */
+						 ?> 
                             <img  src="<?php echo roadfighter_get_option('roadfighter_slideimage1'); ?>" alt="Slide Image 1"/></a>
                     <?php } else { ?>
                         <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt="Slide Image 1"/>
                             <?php } ?>
+                    <?php /*        
                     <div class="flex-caption-wrapper">
                         <div class="flex-caption">
                             <?php if (roadfighter_get_option('roadfighter_sliderheading1') != '') { ?>
@@ -47,6 +53,8 @@
                         <?php } ?>
                         </div>
                     </div>
+                    */
+                    ?>
                 </li>
             </ul>
         </div>
@@ -59,26 +67,26 @@
     <div class="container_24">
         <div class="grid_24">
             <div class="home-content">
-               <?php
-               /* Hamed's code */
-               /* We don't need the section "page info". */
-               /**
+
+
                 <div class="page_info">
                     <?php if (roadfighter_get_option('roadfighter_page_main_heading') != '') { ?>
                         <h1><?php echo stripslashes(roadfighter_get_option('roadfighter_page_main_heading')); ?></h1>
                         <?php } else { ?>
-                        <h1><?php _e('Premium WordPress Themes with Single Click Installation.','rdf'); ?></h1>
+                        <h1><?php _e('We make different products using microalgae.','rdf'); ?></h1>
                         <?php } ?>
+                        <?php /*
                         <?php if (roadfighter_get_option('roadfighter_page_sub_heading') != '') { ?>
                         <h3><?php echo stripslashes(roadfighter_get_option('roadfighter_page_sub_heading')); ?></h3>
                                 <?php } else { ?>
                         <h3><?php _e('Just a Click and your website is ready for use. Your Site is faster to built, easy to use & Search Engine Optimized.','rdf'); ?></h3>
                                 <?php } ?>
+						 */
+						 ?>
                 </div>                          
                 <div class="clear"></div>
-			    */ 
-			    /* End of Hamed's code */
-			    ?>
+
+      
                 <div class="feature-content">
                     <div class="grid_8 alpha">
                         <div class="feature-content-inner first">
@@ -165,6 +173,9 @@
                     </div>
                 </div>
                 <div class="clear"></div>
+                <?php
+                /* Hamed: 
+				 * Road-Fighter theme: we don't need the bottom tagline button that is represented with the text "View Portfolio".				  
                 <div class="bottom_tagline">
                     <div class=" grid_18 ipad-tagline alpha">
                         <div class="bottom_tagline_text">
@@ -185,6 +196,8 @@
                         </div>
                     </div>
                 </div>
+				 */
+				 ?>
                 <div class="clear"></div>
             </div>
         </div>

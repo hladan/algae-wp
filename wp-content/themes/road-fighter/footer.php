@@ -19,9 +19,14 @@
             <div class="bottom_footer_content">
                 <div class="grid_24">
                     <div class="copyrightinfo">
+                        <?php
+                        /*
                         <p class="copyright"><?php _e('Realized by','rdf'); ?><a href="<?php echo urldecode('http://www.wordpress.com'); ?>" target="_blank">
-                        	                 <?php _e('Wordpress','rdf'); ?></a> <?php _e('&copy; 2015 marinature.com, All Rights Reserved','rdf'); ?></p>
-
+                        	                 <?php _e('Wordpress','rdf'); ?></a> <?php _e('&copy; 2015 QMAB, All Rights Reserved','rdf'); ?></p>
+                        */
+                        ?>
+                        <p class="copyright">
+                          <?php _e('&copy; 2015 <a class = "underline" href="http://www.qmabco.com/" target="_blank">QMAB</a>, All Rights Reserved','rdf'); ?></p>
                     </div>
                 </div>
             </div>

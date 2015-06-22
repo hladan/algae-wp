@@ -144,7 +144,8 @@ th {
 	position:absolute;
 	top:0;
 	left:0;
-	background-color:#143637;
+	/* background-color:#143637; */
+	background-color:#4695fa;
 }
 /* End of Hamed's code */
 /* Hamed's code */
@@ -155,12 +156,14 @@ th {
 	left:auto;
 	top:0;
 	right:0;
-	background-color: #759ea2;
+	/* background-color: #759ea2; */
+	background-color:#2d85ef;
 }
 /* End of Hamed's code */
 /* Hamed's code */
 .my-outer-header .my-header-wrapper{
-    background-image:url(images/hwater.jpg);
+    /* background-image:url(images/hwater.jpg);*/
+    background-image:url(images/header-clouds.jpg); 
     background-position:center;
     background-repeat:no-repeat;
 	height:115px;
@@ -224,7 +227,8 @@ th {
 .menu-wrapper{
 	/* Hamed's code */
     /* background image of the navigation menu changed to "navbg.png". */
-	background:url(images/navbg.png) repeat;
+	/* background:url(images/navbg.png) repeat; */
+	background-color: #005793;
     padding:3px;     
     /* End of Hamed's code */
     
@@ -279,12 +283,12 @@ th {
     font-size:16px;
     
     /* Hamed's code */
-    /* Used "border-radius" to make interesting shapes around the navigation menu items.
-     * The color of the borders is set to a dark turquoise.*/
+    /* Used "border-radius" to make interesting shapes around the navigation menu items. */
     border-radius:10px 25px 10px;
     padding-top:16px;
     padding-bottom:15px;
-    border:1px solid #1A5A53;   
+    /* border:1px solid #1A5A53; */
+    border:1px solid #003f93;  
     /*End of Hamed's code*/ 
     margin-left:0;
     margin-bottom:0;
@@ -302,8 +306,9 @@ th {
 #menu li.current-menu-item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {   
     /* color: #f6860e; */
     /* Hamed's code */
-    /* The font color of the menu items changes to a bright green when the mouse hovers the items. */ 
-    color: #88D088;
+    /* The font color of the menu items changes when the mouse hovers the items. */ 
+    /* color: #88D088; */
+       color: #87CEFA;
     /* End of Hamed's code */ 
 }
 #menu .ddsmoothmenu li > ul {
@@ -485,7 +490,8 @@ th {
 /*      FlexSlider Necessary Styles  */
 .slider-container{
 	/* Hamed's code */
-	background: #217574;
+	/* background: #217574; */
+	   background: #FFFFFF;
     /* End of Hamed's code */
     overflow:hidden;
     padding-bottom:10px;
@@ -494,7 +500,11 @@ th {
     font-weight:normal;
     padding-bottom:38px;
     margin-top:0px;
-    background:url(images/slider-shadow.png) bottom center no-repeat;
+    /* Hamed:
+     * We don't need the following shadow under the slider. 
+     * background:url(images/slider-shadow.png) bottom center no-repeat;
+     * End.
+     */
     margin-bottom:30px;
 }
 .flexslider {
@@ -705,11 +715,18 @@ html[xmlns] .slides {
 }
 /* Hamed's code */
 .home_container{
-	background: #217574; 
+	/* background: #217574; */
+	/* Road-Fighter theme: the background color of the container that contains the three features of homepage. 
+	   The container also contains a button with the text "View Portfolio".  
+	 */   
+	background: #FFFFFF; 
 }
 /* End of Hamed's code */
 .home-content .page_info{
-    background:url(images/shadow-index.png) bottom center no-repeat;
+    /* Hamed:
+     * We don't need the following shadow under the page info. 
+     * background:url(images/shadow-index.png) bottom center no-repeat;
+     */
     margin-bottom:50px;
     padding-bottom:40px;
 }
@@ -723,7 +740,7 @@ html[xmlns] .slides {
     text-align:center;
 }
 .feature-content{
-    background:url(images/shadow-index.png) bottom center no-repeat;
+   /* background:url(images/shadow-index.png) bottom center no-repeat; */
     overflow:hidden;
     padding-bottom:57px;
     margin-bottom:0px;
@@ -1146,8 +1163,9 @@ html[xmlns] .slides {
 }
 .footer_container{
   /*  background:#d8621f url(images/footerbg.png) center repeat-y;*/
-    /* The background color of the footer is changed to #143336 and the background image is removed.*/
-    background:#143336 center repeat-y;
+    /* The background color of the footer is changed and the background image is removed.*/
+    /* background:#143336 center repeat-y; */
+    background:#005793 center repeat-y;
     border-bottom:1px solid #8f390a;
 }
 .footer{
@@ -1242,6 +1260,9 @@ html[xmlns] .slides {
     height:16px;
     width:15px;
 }
+.underline {
+	text-decoration: underline;
+}
 .searchform {
     position:relative;
     margin-bottom:35px;
@@ -1284,7 +1305,8 @@ html[xmlns] .slides {
 }
 .bottom_footer_container{
 /* The background color is changed to #143336 */ 	
-    background:#143336;
+   /* background:#143336; */
+    background: #005793;
     border-top:1px solid #fb955d;
 }
 .bottom_footer_container ul.social_logos{

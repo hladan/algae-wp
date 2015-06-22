@@ -43,11 +43,14 @@
       		  <a href="http://algaeing.com">
       			 <div class="logo"></div>	
       		  </a>
+             <?php /*
               <div class="topnav">
          	     <span class="light-green" style = 'font-size: 14px'><strong>CALL</strong></span>
          	     &nbsp;
          	     <span style = 'font-size: 18px'>+98(021) 88 37 50 61</span>
-              </div>	  
+              </div>
+			  */
+			  ?> 	  
          </div>	      	                    	    	                    	
      </div>	                                      
      <div class="menu-wrapper">
