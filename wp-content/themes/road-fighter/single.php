@@ -37,27 +37,35 @@ We removed the sidebar from loaded page by removing the following code from sing
 <div class="page-container">
     <div class="container_24">
         <div class="grid_24">
-            <div class="page-content">
-                  <div class="grid_17 alpha">
-                    <div class="content-bar">   
+            <div class="page-content">                   
+                <?php /*  <div class="grid_17 alpha"> */ ?>
+                    <div class="content-bar">  
+                      <div class="panel-left"></div> 
+                         <div class="panel-right"></div>
+                       <div class="panel-content-post">  
                         <?php /* Start the Loop. */ ?>
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                                 <?php /* Start post */ ?>
                                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                                    <div class="post_thumbnail"><?php the_post_thumbnail(); ?></div>
                                     <div class="post_heading_wrapper">
                                         <?php /* Hamed: the following title is for posts. 
 										  [compare to the title at loop.php] */?>
                                         <div class="post_title"><?php the_title(); ?></div>
+                                        <?php /* Hamed: we don't need the post date. */?>
+                                        <?php /*
                                         <div class="post_date">
                                             <ul class="date">
                                                 <li class="day"><?php echo get_the_time('d') ?></li>
                                                 <li class="month"><?php echo get_the_time('M') ?></li>
                                             </ul>
                                         </div>
+										 */?> 
                                     </div>
+                                    <div class="post_thumbnail"><?php the_post_thumbnail(); ?></div>                                 
                                     <div class="post_content">
                                         <?php the_content(); ?></div>
+                                    <?php /* Hamed: Hamed: we don't need the author, the category, the tags and the number of comments of the posts.*/?>
+                                    <?php /*
                                     <ul class="post_meta">
                                         <li class="posted_by"><?php the_author_posts_link(); ?></li>
                                         <li class="post_category"><?php the_category(', '); ?></li>
@@ -65,7 +73,7 @@ We removed the sidebar from loaded page by removing the following code from sing
                                             <li class="post_tag"><?php the_tags(__('Tagged with : ', ', ', '')); ?></li>
                                         <?php } ?>
                                         <li class="post_comment"><?php comments_popup_link('No Comments.', '1 Comment.', '% Comments.'); ?></li>
-                                    </ul>
+                                    </ul>*/?>
                                     <div class="clear"></div>
                                 </div>
                             <?php endwhile;
@@ -80,18 +88,21 @@ We removed the sidebar from loaded page by removing the following code from sing
                         <div class="clear"></div>
                         <?php wp_link_pages(array('before' => '<div class="clear"></div><div class="page-link"><span>' . __('Pages:', 'rdf') . '</span>', 'after' => '</div>')); ?>
                         <?php /* Start Comment box */ ?>
-                        <?php comments_template(); ?>
+                        <?php /* Hamed: we don't need the comment box.*/?>
+                        <?php /*comments_template();*/ ?>
                         <?php /* End Comment box */ ?>
                         <div class="clear"></div>
+                        <?php /* Hamed: we don't need the previous and next posts. */?> 
+                        <?php /*
                         <nav id="nav-single"> <span class="nav-previous">
                                 <?php previous_post_link('%link', __('<span class="meta-nav">&larr;</span> Previous Post ', 'rdf')); ?>
                             </span> <span class="nav-next">
                         <?php next_post_link('%link', __('Next Post <span class="meta-nav">&rarr;</span>', 'rdf')); ?>
-                            </span> </nav>
+                            </span> </nav> */?>
                         <?php /* End post */ ?>
                     </div>
-                 </div>
-
+               <?php /*  </div> */ ?>
+                </div>
             </div>
         </div>
         <div class="clear"></div>

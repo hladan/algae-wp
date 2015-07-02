@@ -50,6 +50,10 @@ We also changed a little the layout of this page by removing this code from "cat
                              */
                             ?>
                             <?php get_template_part('loop', 'category'); ?>
+                        <?php else: // Hamed: I added "else" to this "if" statement.
+						 ?>
+						  <div class="warning">Please add a post to this category. 
+						  	Each category should have at least one post.</div>
                         <?php endif; ?>
                         <div class="clear"></div>
                         <nav id="nav-single"> <span class="nav-previous">

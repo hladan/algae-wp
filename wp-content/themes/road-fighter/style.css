@@ -98,6 +98,11 @@ td, th {
 th {
     background: #cccccc;
 }
+.warning{
+	color:#FF0000;
+	font-size:22px;
+	height:100px;
+}
 .header_container{
     position:relative;
     /* Hamed's code */
@@ -134,39 +139,41 @@ th {
 	margin-right:auto;
 	position:relative;
 	color:white;
-	height:115px;
+	height:105px;
 }
 /* End of Hamed's code */
 /* Hamed's code */
 .my-outer-header .headerleft{
-	height:150px;
+	height:105px;
 	width:50%;
 	position:absolute;
 	top:0;
 	left:0;
 	/* background-color:#143637; */
-	background-color:#4695fa;
+	/* background-color:#4695fa; */
+	background-color:#FFFFFF;
 }
 /* End of Hamed's code */
 /* Hamed's code */
 .my-outer-header .headerright{
-	height:150px;
+	height:105px;
 	width:50%;
 	position:absolute;
 	left:auto;
 	top:0;
 	right:0;
 	/* background-color: #759ea2; */
-	background-color:#2d85ef;
+	/* background-color:#2d85ef; */
+	background-color:#FFFFFF;
 }
 /* End of Hamed's code */
 /* Hamed's code */
 .my-outer-header .my-header-wrapper{
     /* background-image:url(images/hwater.jpg);*/
-    background-image:url(images/header-clouds.jpg); 
+   /* background-image:url(images/header-clouds.jpg); */ 
     background-position:center;
     background-repeat:no-repeat;
-	height:150px;
+	height:105px;
 	position:relative;
 	z-index:2;
     margin:0 auto;
@@ -182,7 +189,7 @@ th {
 /* End of Hamed's code */
 /* Hamed's code */
 .logo{
- 	height:150px;
+ 	height:140px;
  	width:206px;
     background:url(images/algaeing-logo.png);
     float:left;
@@ -447,20 +454,20 @@ th {
 /* Hamed:
    Categories Panel */
 .panel-nav {
-	width:25%;
+	width:18%;
 	float:left;
 	position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     box-sizing: border-box;
     border:1px solid #b8b7b3;
 }
 /* Hamed:
    Products Panel (= Posts Panel) */
 .panel-content {
-	width: 75%;
-	float: right;
+	width: 82%;
+	float:right;
 	position: relative;
     min-height: 1px;
     padding-left: 15px;
@@ -468,7 +475,39 @@ th {
     box-sizing: border-box;
     border:1px solid #b8b7b3;
 }
-
+.panel-content-post {
+	width: 64%;
+	float:right;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    border:1px solid #b8b7b3;
+}
+.panel-left {
+	width: 18%;
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  /*  border:1px solid #b8b7b3;*/
+}
+.panel-right {
+	width: 18%;
+	float: right;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  /*  border:1px solid #b8b7b3;*/
+}
+.thumbnail-text {
+	min-height: 40px;
+}
 /* Slider 
 ==========================================*/
 /* #Slider Style Flexslider
