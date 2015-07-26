@@ -101,7 +101,7 @@ th {
 .warning{
 	color:#FF0000;
 	font-size:22px;
-	height:100px;
+	min-height:700px;
 }
 .header_container{
     position:relative;
@@ -484,6 +484,7 @@ th {
     padding-right: 15px;
     box-sizing: border-box;
     border:1px solid #b8b7b3;
+    min-height: 700px;
 }
 .panel-left {
 	width: 18%;
@@ -1206,7 +1207,7 @@ html[xmlns] .slides {
     /* The background color of the footer is changed and the background image is removed.*/
     /* background:#143336 center repeat-y; */
     background:#005793 center repeat-y;
-    border-bottom:1px solid #8f390a;
+  /*  border-bottom:1px solid #8f390a; */
 }
 .footer{
     color:#ffffff;
@@ -1347,7 +1348,7 @@ html[xmlns] .slides {
 /* The background color is changed to #143336 */ 	
    /* background:#143336; */
     background: #005793;
-    border-top:1px solid #fb955d;
+   /* border-top:1px solid #fb955d; */
 }
 .bottom_footer_container ul.social_logos{
     list-style:none;
