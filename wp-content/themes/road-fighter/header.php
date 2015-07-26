@@ -14,10 +14,15 @@
             <?php wp_title('&#124;', true, 'right'); ?>
         </title> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <?php /* Hamed: we need bootstrap for our project. So I added the following line.*/ ?>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">   
+        <?php /* End of Hamed's code. */ ?>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" /> 
         <?php wp_head(); ?>  
+        
+
     </head>
     <body <?php body_class(); ?> style="background:url('<?php
     if (roadfighter_get_option('roadfighter_bodybg') != '') {
@@ -26,7 +31,11 @@
         
     }
     ?>');">
-    
+    <?php /* Hamed: we need bootstrap for our project. So I added the following line.*/ ?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <?php /* End of Hamed's code. */ ?>
     <?php /* Hamed's code */ ?>
     <?php 
     /*
@@ -43,6 +52,7 @@
       		  <a href="http://algaeing.com">
       			 <div class="logo"></div>	
       		  </a>
+      		  
              <?php /*
               <div class="topnav">
          	     <span class="light-green" style = 'font-size: 14px'><strong>CALL</strong></span>

@@ -1693,6 +1693,31 @@ ul.social_logos {
 .content-bar .post .post_meta .post_comment a:hover {
     color:#106ca8;
 }
+/* Hamed: Bootstrap */
+/* We need to define the hover below to override the attributes of Bootstrap's toggle button.
+   As a result, the original hovered toggle button looks different than our button. */ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  color: #000000;
+  outline: none !important;
+ }
+
+.btn
+{ 
+  width:100%;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  color: #000000;
+  border-radius: 0;
+}
+/* The toggle button name (also called button text) is aligned to left. */
+.txt-align-left {
+	text-align: left;
+}
+/* End of Bootstrap */
+
 /*Sidebar style
 ===================================================*/
 .sidebar{

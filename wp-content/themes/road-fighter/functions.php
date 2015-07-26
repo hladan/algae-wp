@@ -69,4 +69,15 @@ function roadfighter_delete_option($name) {
 require_once(get_template_directory() . '/functions/plugin-activation.php');
 require_once(get_template_directory() . '/functions/inkthemes-plugin-notify.php');
 add_action('tgmpa_register', 'inkthemes_plugins_notify');
+
+/* Hamed: do you have this problem: the <span> tag disappears from the TinyMCE editor whenever
+  you switch between the tabs "Text" and "Visual"? The following function solves the problem.*/
+function override_mce_options($initArray) {
+$opts = '*[*]';
+$initArray['valid_elements'] = $opts;
+$initArray['extended_valid_elements'] = $opts;
+return $initArray;
+}
+add_filter('tiny_mce_before_init', 'override_mce_options');
+
 ?>
