@@ -68,7 +68,8 @@
         <div class="grid_24">
             <div class="home-content">
 
-
+                <?php /* Hamed: we don't need a page info now. 
+				 
                 <div class="page_info">
                     <?php if (roadfighter_get_option('roadfighter_page_main_heading') != '') { ?>
                         <h1><?php echo stripslashes(roadfighter_get_option('roadfighter_page_main_heading')); ?></h1>
@@ -82,8 +83,10 @@
                         <h3><?php _e('Just a Click and your website is ready for use. Your Site is faster to built, easy to use & Search Engine Optimized.','rdf'); ?></h3>
                                 <?php } ?>
 						 */
-						 ?>
-                </div>                          
+					/*	 ?> */
+                /* </div> */
+                
+                ?>                          
                 <div class="clear"></div>
 
       
