@@ -87,95 +87,21 @@
                 /* </div> */
                 
                 ?>                          
-                <div class="clear"></div>
-
+  
+                <?php /* We don't need a feature on our homepage. Instead, we create a table that contains 
+				  the categories (with thumbnails) of our products. To see how the code of features looks, see the original 
+				  version of Road Fighter theme. */?>
       
-                <div class="feature-content">
-                    <div class="grid_8 alpha">
-                        <div class="feature-content-inner first">
-                            <div class="image-box">
-                                <?php if (roadfighter_get_option('roadfighter_fimg1') != '') { ?>
-                                    <a href="<?php if (roadfighter_get_option('roadfighter_link1') != '') {
-                                    echo esc_url(roadfighter_get_option('roadfighter_link1'));
-                                } ?>"><img src="<?php echo roadfighter_get_option('roadfighter_fimg1'); ?>" alt="First Feature Image" /></a>
-                                <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" /><?php } ?><a href="<?php if (roadfighter_get_option('roadfighter_link1') != '') {
-                                    echo roadfighter_get_option('roadfighter_link1');
-                                } ?>"><div class="mask"></div></a></div>
-                            <div class="feature-content-text">
-                                <?php if (roadfighter_get_option('roadfighter_headline1') != '') { ?><h3><a href="<?php if (roadfighter_get_option('roadfighter_link1') != '') {
-                                        echo esc_url(roadfighter_get_option('roadfighter_link1'));
-                                    } ?>"><?php echo stripslashes(roadfighter_get_option('roadfighter_headline1')); ?></a></h3>
-                                <?php } else { ?>
-                                    <h3><a href="#"><?php _e('Bring More Traffic To Website','rdf'); ?></a></h3>
-                                <?php } ?>
-                                <?php if (roadfighter_get_option('roadfighter_feature1') != '') { ?>
-                                    <p><?php echo stripslashes(roadfighter_get_option('roadfighter_feature1')); ?></p>
-                                <?php } else { ?>
-                                    <p><?php _e('Facebook Like button and Like box Plugins Nowadays website builder wants to bring more visitors.','rdf'); ?></p>
-                                <?php } ?>
-                                <a class="read-more" href="<?php if (roadfighter_get_option('roadfighter_link1') != '') {
-                                    echo esc_url(roadfighter_get_option('roadfighter_link1'));
-                                } ?>"><?php _e('Read More', 'rdf') ?></a></div> </div>
-                    </div>
-                    <div class="grid_8">
-                        <div class="feature-content-inner second">
-                            <div class="image-box">
-                                <?php if (roadfighter_get_option('roadfighter_fimg2') != '') { ?>
-                                    <a href="<?php if (roadfighter_get_option('roadfighter_link2') != '') {
-                                        echo esc_url(roadfighter_get_option('roadfighter_link2'));
-                                    } ?>"><img src="<?php echo roadfighter_get_option('roadfighter_fimg2'); ?>" alt="First Feature Image" /></a>
-                                <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/2.jpg" /><?php } ?><a href="<?php if (roadfighter_get_option('roadfighter_link2') != '') {
-                                echo esc_url(roadfighter_get_option('roadfighter_link2'));
-                            } ?>"><div class="mask"></div></a></div>
-                            <div class="feature-content-text">
-                                <?php if (roadfighter_get_option('roadfighter_headline2') != '') { ?><h3><a href="<?php if (roadfighter_get_option('roadfighter_link2') != '') {
-                                    echo esc_url(roadfighter_get_option('roadfighter_link2'));
-                                } ?>"><?php echo stripslashes(roadfighter_get_option('roadfighter_headline2')); ?></a></h3>
-                                <?php } else { ?>
-                                    <h3><a href="#"><?php _e('Bring More Traffic To Website','rdf'); ?></a></h3>
-                                <?php } ?>
-                                <?php if (roadfighter_get_option('roadfighter_feature2') != '') { ?>
-                                    <p><?php echo stripslashes(roadfighter_get_option('roadfighter_feature2')); ?></p>
-                                <?php } else { ?>
-                                    <p><?php _e('Facebook Like button and Like box Plugins Nowadays website builder wants to bring more visitors.','rdf'); ?></p>
-                                    <?php } ?>
-                                <a class="read-more" href="<?php if (roadfighter_get_option('roadfighter_link2') != '') {
-                                echo esc_url(roadfighter_get_option('roadfighter_link2'));
-                            } ?>"><?php _e('Read More', 'rdf') ?></a></div>
-                        </div>
-                    </div>
-                    <div class=" grid_8 omega">
-                        <div class="feature-content-inner third">
-                            <div class="image-box">
-                            <?php if (roadfighter_get_option('roadfighter_fimg3') != '') { ?>
-                                    <a href="<?php if (roadfighter_get_option('roadfighter_link3') != '') {
-                                echo esc_url(roadfighter_get_option('roadfighter_link3'));
-                            } ?>"><img src="<?php echo roadfighter_get_option('roadfighter_fimg3'); ?>" alt="First Feature Image" /></a>
-                                <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/3.jpg" /><?php } ?><a href="<?php if (roadfighter_get_option('roadfighter_link3') != '') {
-                                 echo esc_url(roadfighter_get_option('roadfighter_link3'));
-                            } ?>"><div class="mask"></div></a></div>
-                            <div class="feature-content-text">
-                            <?php if (roadfighter_get_option('roadfighter_headline3') != '') { ?><h3><a href="<?php if (roadfighter_get_option('roadfighter_link3') != '') {
-                                echo esc_url(roadfighter_get_option('roadfighter_link3'));
-                            } ?>"><?php echo stripslashes(roadfighter_get_option('roadfighter_headline3')); ?></a></h3>
-                                <?php } else { ?>
-                                    <h3><a href="#"><?php _e('Bring More Traffic To Website','rdf'); ?></a></h3>
-                                    <?php } ?>
-                                    <?php if (roadfighter_get_option('roadfighter_feature3') != '') { ?>
-                                    <p><?php echo stripslashes(roadfighter_get_option('roadfighter_feature3')); ?></p>
-                                    <?php } else { ?>
-                                    <p><?php _e('Facebook Like button and Like box Plugins Nowadays website builder wants to bring more visitors.','rdf'); ?></p>
-                                <?php } ?>
-                                <a class="read-more" href="<?php if (roadfighter_get_option('roadfighter_link3') != '') {
-                            echo esc_url(roadfighter_get_option('roadfighter_link3'));
-                        } ?>"><?php _e('Read More', 'rdf') ?></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clear"></div>
+    
+    	       <table id = "table-of-categories">
+		           <tbody>
+		            <tr>
+			           <td> <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18"><img src="<?php bloginfo('template_directory'); ?>/images/coffee1.jpg"/></a></td>
+			           <td> <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19"><img src="<?php bloginfo('template_directory'); ?>/images/coffee2.jpg"/></a></td>
+		            </tr>
+            	   </tbody>
+	           </table>
+                 
                 <?php
                 /* Hamed: 
 				 * Road-Fighter theme: we don't need the bottom tagline button that is represented with the text "View Portfolio".				  
@@ -201,7 +127,6 @@
                 </div>
 				 */
 				 ?>
-                <div class="clear"></div>
             </div>
         </div>
         <div class="clear"></div>

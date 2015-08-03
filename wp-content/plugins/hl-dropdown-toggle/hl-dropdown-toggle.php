@@ -34,7 +34,8 @@ function toggle( $atts, $content = null ) {
 /* Values are assigned to the variables "name" and "content" by admin. We get help from 
    JavaScript (the file "hl-dropdown-toggle.js") to facilitate these assignments. */	
     return '<button id="button" type="button" class="btn btn-primary txt-align-left" 
-         data-toggle="collapse" data-target="#demo"> <span class="glyphicon glyphicon-collapse-down"></span>'.' '.$name.'
+         data-toggle="collapse" data-target="#demo">
+          <span class="glyphicon glyphicon-collapse-down"></span>'.' '.'<strong>'.$name.'</strong>'.'
 </button>'.'<div id="demo" class="collapse">'.$content.'</div>';
 }
 add_shortcode('toggle','toggle');

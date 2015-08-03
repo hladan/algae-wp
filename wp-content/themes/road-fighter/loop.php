@@ -21,13 +21,19 @@
 	      <li class="cat-item cat-item-7"><a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=7" >Cat1_2</a>
           </li>         
 	 */
+  ?>
+  <?php /* We don't need the list of categories to be displayed on browser now. 
    if ($this_category) { ?>
      <div class = "panel-nav">
      <ul>
-      <?php echo $this_category; ?>
+     <?php  
+	   echo $this_category;  
+	 ?>
      </ul>
      </div>
    <?php } ?> 
+   */
+   ?> 
 <?php /* End of Code #1 */ ?>
 <?php
 /* This function is called when the user has not selected a thumbnail for the post. An image from the 
