@@ -213,7 +213,7 @@ $stackTD = array("");
     </div> 
  */ ?>    
   <?php endif; ?>
-  <table>
+  <table id="table-of-products">
   	<tbody> 
       <?php
         // $stackTD = array("<td>...</td>"); // Each category should have at least one post. 

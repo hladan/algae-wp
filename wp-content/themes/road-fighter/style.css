@@ -98,6 +98,10 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure
 	margin-left: auto;
     margin-right: auto;
 }
+#table-of-products{
+	margin-left: 70px;
+    margin-right: 50px;
+}
 td, th {
    /* border: 1px solid #ccc; No solid border around the table is needed. */
    border: 0;
@@ -3460,4 +3464,8 @@ ul.paging a.active, ul.paging a.current {
     .bottom_footer_container ul.social_logos {
         margin-left: 66px;
     }
+    #table-of-products{
+	margin-left: 0;
+    margin-right: 0;
+}
 }

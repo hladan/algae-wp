@@ -25,7 +25,7 @@
                         	                 <?php _e('Wordpress','rdf'); ?></a> <?php _e('&copy; 2015 QMAB, All Rights Reserved','rdf'); ?></p>
                         */
                         ?>
-                        <p class="copyright">
+                        <p class="copyright" style="text-align: center;">
                           <?php _e('&copy; 2015 <a class = "underline" href="http://www.qmabco.com/" target="_blank">QMAB</a>, All Rights Reserved','rdf'); ?></p>
                     </div>
                 </div>
