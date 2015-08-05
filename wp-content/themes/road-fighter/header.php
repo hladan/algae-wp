@@ -65,10 +65,10 @@
      </div>	                                      
      <div class="menu-wrapper">
          <div id="MainNav">
-             <a href="#" class="mobile_nav closed"><?php _e('Pages Navigation Menu','rdf'); ?><span></span></a>
+             <a class="mobile_nav closed"><?php _e('MENU','rdf'); ?><span></span></a>
              <?php roadfighter_nav(); ?> 
          </div>   
-     </div>                              
+     </div>                               
 <?php /* End of Hamed's code */ ?>
 <?php /* Original version of header.php */
 /*

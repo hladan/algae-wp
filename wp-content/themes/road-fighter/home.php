@@ -9,9 +9,9 @@
 <div class="slider-container">
     <div class="slider-wrapper">
         <!--Start Slider Wrapper-->
-        <div class="flexslider">
-            <ul class="slides">
-                <li>
+       <!-- <div class="flexslider"> -->
+            <div class="slides">
+               <!-- <li> -->
                     <?php if (roadfighter_get_option('roadfighter_slideimage1') != '') { ?>
                         <?php 
 			             /* Hamed:
@@ -21,10 +21,11 @@
                     } ?>" >
 						 */
 						 ?> 
-                            <img  src="<?php echo roadfighter_get_option('roadfighter_slideimage1'); ?>" alt="Slide Image 1"/></a>
+                            <img  src="<?php echo roadfighter_get_option('roadfighter_slideimage1'); ?>" alt="Slide Image 1" width="100%" height="100%"/>
                     <?php } else { ?>
                         <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt="Slide Image 1"/>
                             <?php } ?>
+                           
                     <?php /*        
                     <div class="flex-caption-wrapper">
                         <div class="flex-caption">
@@ -55,9 +56,9 @@
                     </div>
                     */
                     ?>
-                </li>
-            </ul>
-        </div>
+               <!-- </li> -->
+            </div>
+       <!-- </div> -->
     </div>
 </div>
 </div>
@@ -96,8 +97,16 @@
     	       <table id = "table-of-categories">
 		           <tbody>
 		            <tr>
-			           <td> <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18"><img src="<?php bloginfo('template_directory'); ?>/images/coffee1.jpg"/></a></td>
-			           <td> <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19"><img src="<?php bloginfo('template_directory'); ?>/images/coffee2.jpg"/></a></td>
+			           <td> 
+			           	  <div class ="table-of-categories-img">
+			           	  <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18"><img src="<?php bloginfo('template_directory');?>/images/coffee1.jpg"/></a>
+			              </div>
+			           </td>
+			           <td> 
+			           	 <div class ="table-of-categories-img">
+			           	   <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19"><img src="<?php bloginfo('template_directory'); ?>/images/coffee2.jpg"/></a>
+			             </div>
+			           </td>	                		               
 		            </tr>
             	   </tbody>
 	           </table>
