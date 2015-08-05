@@ -3,7 +3,6 @@
  * The template for displaying front page pages.
  *
  */
-
 ?>
 <?php get_header(); ?>  
 <div class="slider-container">
@@ -99,12 +98,12 @@
 		            <tr>
 			           <td> 
 			           	  <div class ="table-of-categories-img">
-			           	  <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18"><img src="<?php bloginfo('template_directory');?>/images/coffee1.jpg"/></a>
+			           	  <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18"><img src="<?php bloginfo('template_directory');?>/images/d.jpg"/></a>
 			              </div>
 			           </td>
 			           <td> 
 			           	 <div class ="table-of-categories-img">
-			           	   <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19"><img src="<?php bloginfo('template_directory'); ?>/images/coffee2.jpg"/></a>
+			           	   <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19"><img src="<?php bloginfo('template_directory'); ?>/images/c.jpg"/></a>
 			             </div>
 			           </td>	                		               
 		            </tr>
