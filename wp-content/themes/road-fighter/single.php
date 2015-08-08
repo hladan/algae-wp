@@ -61,7 +61,16 @@ We removed the sidebar from loaded page by removing the following code from sing
                                         </div>
 										 */?> 
                                     </div>
-                                    <div class="post_thumbnail"><?php the_post_thumbnail(); ?></div>                                 
+                                    <?php /* We don't need to display the thumbnail on a post. 
+									 IMPORTANT: for each product we should provide two images: small size and large size images.
+									 The small image is used as thumbnail. You should insert the image through admin by clicking
+									 the link "Set featured image" next to the post editor. You should insert the big image manually 
+									 by inserting it to the post editor through the button "Add Media", how?: 
+									 when you click on a picture to insert, a drop down list on the right asks which size you want to insert.
+									 You can pick Medium, Large and Full size. 
+									 */ ?>
+                                    <?php /* <div class="post_thumbnail"><?php the_post_thumbnail(); ?></div> */ ?>                               
+                                   
                                     <div class="post_content">
                                         <?php the_content(); ?></div>
                                     <?php /* Hamed: Hamed: we don't need the author, the category, the tags and the number of comments of the posts.*/?>
