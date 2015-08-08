@@ -27,22 +27,27 @@
             <div class="page-content">
                 <div class="grid_17 alpha">
                     <div class="content-bar">   
-                        <h1><?php the_title(); ?></h1>
+                        <h1><?php 
+                          /* Hamed: we don't need the title of pages. */
+                          /* the_title(); */
+                        ?></h1>
                         <?php if (have_posts()) : the_post(); ?>
                             <?php the_content(); ?>
                             <div class="clear"></div>
                             <?php wp_link_pages(array('before' => '<div class="page-link"><span>' . __('Pages:', 'rdf') . '</span>', 'after' => '</div>')); ?>
                         <?php endif; ?>
+                        <div class="warning"></div>
                     </div>
-                    <!--Start Comment box-->
-                    <?php comments_template(); ?>
-                    <!--End Comment box-->	
-              
+                    <?php 
+                      /* Hamed: we don't need users to comment on our pages. */				 
+					  /* comments_template(); */                     
+                    ?>              
                 </div>
-                 <div class="grid_7 omega">
-                    <!--Start Sidebar-->
-                    <?php get_sidebar(); ?>
-                    <!--End Sidebar-->
+                 <div class="grid_7 omega">                  
+                    <?php 
+                      /* Hamed: we don't need the sidebar that contains the search bar, categories and archives on our pages. */ 
+                      /* get_sidebar(); */
+                    ?>
                 </div>
         </div>
     </div>
