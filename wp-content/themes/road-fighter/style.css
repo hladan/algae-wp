@@ -1756,6 +1756,10 @@ ul.social_logos {
 .txt-align-left {
 	text-align: left;
 }
+/* The size of drop-down Bootstrap icon is enlarged. */ 
+.glyphicon.glyphicon-collapse-down {
+	font-size: 20px;
+}
 /* End of Bootstrap */
 
 /*Sidebar style
