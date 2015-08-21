@@ -541,7 +541,8 @@ th {
 }
 .thumbnail-text {
 	min-height: 40px;
-	margin-left: 6px;
+	/* margin-left: 6px; */
+	text-align:center; 
 }
 /* Slider 
 ==========================================*/
