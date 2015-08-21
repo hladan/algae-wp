@@ -1571,6 +1571,8 @@ ul.social_logos {
     line-height: 25px;
     font-weight: normal;
     color: #143637;
+    /* We don't need to display post title. */
+    display:none;
     /* End of Hamed's code */
 }
 .post_thumbnail img{
