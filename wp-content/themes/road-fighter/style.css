@@ -1764,6 +1764,10 @@ ul.social_logos {
 .glyphicon.glyphicon-collapse-down {
 	font-size: 20px;
 }
+.drop-down-button {
+	
+	margin-right:-7px;
+}
 /* End of Bootstrap */
 
 /*Sidebar style
