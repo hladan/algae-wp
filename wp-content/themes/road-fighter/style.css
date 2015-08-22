@@ -1758,6 +1758,7 @@ ul.social_logos {
 /* The toggle button name (also called button text) is aligned to left. */
 .txt-align-left {
 	text-align: left;
+	margin-left:-12px;
 }
 /* The size of drop-down Bootstrap icon is enlarged. */ 
 .glyphicon.glyphicon-collapse-down {
