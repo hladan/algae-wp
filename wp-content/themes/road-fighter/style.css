@@ -1741,8 +1741,8 @@ ul.social_logos {
    As a result, the original hovered toggle button looks different than our button. */ 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 
-  background-color: #f2f2f2;
-  border-color: #f2f2f2;
+  background-color: #C0C0C0;
+  border-color: #C0C0C0;
   color: #000000;
   outline: none !important;
  }
@@ -1750,8 +1750,8 @@ ul.social_logos {
 .btn
 { 
   width:100%;
-  background-color: #f2f2f2;
-  border-color: #f2f2f2;
+  background-color: #C0C0C0;
+  border-color: #C0C0C0;
   color: #000000;
   border-radius: 0;
 }
