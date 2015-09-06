@@ -91,6 +91,16 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure
     margin-bottom:15px;
     font-weight:normal;    
 }
+.half-column-right{
+	width:50%;
+	float:right;
+	margin-bottom:50px;
+}
+.half-column-left{
+	width:50%;
+	float:left;
+	margin-bottom:50px;
+}
 /* The table "table-of-categories" is located on the homepage and contains the categories of our products. Each cell 
  of the table has a thumbnail. The table is placed in the center of the homepage. */
 #table-of-categories{
@@ -3375,6 +3385,12 @@ ul.paging a.active, ul.paging a.current {
                    for displaying the table cells in a single column on smart phones. 
 	    */ 
 		display: block;     
+	}
+	.half-column-left{
+		width:100%;
+	}
+	.half-column-right{
+		width:100%;
 	}
 	.slides img{
 		height:250px;

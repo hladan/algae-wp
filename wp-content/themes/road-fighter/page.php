@@ -25,7 +25,6 @@
     <div class="container_24">
         <div class="grid_24">
             <div class="page-content">
-                <div class="grid_17 alpha">
                     <div class="content-bar">   
                         <h1><?php 
                           /* Hamed: we don't need the title of pages. */
@@ -41,14 +40,13 @@
                     <?php 
                       /* Hamed: we don't need users to comment on our pages. */				 
 					  /* comments_template(); */                     
-                    ?>              
-                </div>
-                 <div class="grid_7 omega">                  
+                    ?>                                              
                     <?php 
+                      /* <div class="grid_7 omega"> */
                       /* Hamed: we don't need the sidebar that contains the search bar, categories and archives on our pages. */ 
                       /* get_sidebar(); */
-                    ?>
-                </div>
+                      /* </div> */
+                    ?>               
         </div>
     </div>
 	    <div class="clear"></div>
