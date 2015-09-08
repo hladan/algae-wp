@@ -64,8 +64,8 @@
 </div>
 <div class="clear"></div>
 <div class="home_container">
-    <div class="container_24">
-        <div class="grid_24">
+   
+
             <div class="home-content">
 
                 <?php /* Hamed: we don't need a page info now. 
@@ -98,12 +98,12 @@
 		            <tr>
 			           <td> 
 			           	  <div class ="table-of-categories-img">
-			           	  <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18"><img src="<?php bloginfo('template_directory');?>/images/d.jpg"/></a>
+			           	  <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18"><img src="<?php bloginfo('template_directory');?>/images/cosmeceutical.jpg"/></a>
 			              </div>
 			           </td>
 			           <td> 
 			           	 <div class ="table-of-categories-img">
-			           	   <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19"><img src="<?php bloginfo('template_directory'); ?>/images/c.jpg"/></a>
+			           	   <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19"><img src="<?php bloginfo('template_directory'); ?>/images/nutraceutical.jpg"/></a>
 			             </div>
 			           </td>	                		               
 		            </tr>
@@ -136,8 +136,8 @@
 				 */
 				 ?>
             </div>
-        </div>
+       
         <div class="clear"></div>
-    </div>
+   
 </div>
 <?php get_footer(); ?>

@@ -102,11 +102,13 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure
 	margin-bottom:50px;
 }
 /* The table "table-of-categories" is located on the homepage and contains the categories of our products. Each cell 
- of the table has a thumbnail. The table is placed in the center of the homepage. */
+ of the table has a thumbnail. */
 #table-of-categories{
-	/* The table is located in the center. */
-	margin-left: auto;
-    margin-right: auto;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+  /* margin-left: auto; */ 	
+  /* margin-right: auto; */
 }
 #table-of-products{
 	margin-left: 70px;
@@ -115,7 +117,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure
 td, th {
    /* border: 1px solid #ccc; No solid border around the table is needed. */
    border: 0;
-   padding: 3px;
+   padding: 1px;
 }
 th {
     background: #cccccc;
@@ -586,7 +588,7 @@ th {
     font-weight:normal;
    /* padding-bottom:38px; */
     margin-top:0px;
-    margin-bottom: 4px;
+    margin-bottom: 1px;
     /* Hamed:
      * We don't need the following shadow under the slider. 
      * background:url(images/slider-shadow.png) bottom center no-repeat;
@@ -3397,7 +3399,7 @@ ul.paging a.active, ul.paging a.current {
         max-width:100%;
 	}
     .slider-wrapper {
-        margin-bottom:4px;
+        margin-bottom:1px;
     }
     .flexslider {
         min-height:auto;
