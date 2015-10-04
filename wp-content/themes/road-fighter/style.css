@@ -110,6 +110,14 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure
   /* margin-left: auto; */ 	
   /* margin-right: auto; */
 }
+.category-left{
+	width:50%;
+	float:left;
+}
+.category-right{
+	width:50%;
+	float:right;
+}
 #table-of-products{
 	margin-left: 70px;
     margin-right: 50px;
@@ -2906,6 +2914,7 @@ ul.paging a.active, ul.paging a.current {
         height:auto;
         max-width:100%;
     }
+
 }
 @media only screen and (min-width: 767px) and (max-width: 960px) {
     .header{
@@ -3023,6 +3032,7 @@ ul.paging a.active, ul.paging a.current {
         height:auto;
         max-width:100%;
     }
+
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .header_wrapper .call-us {
@@ -3267,6 +3277,7 @@ ul.paging a.active, ul.paging a.current {
      padding-left: 15px;
      padding-right: 15px;
    }
+
 }
 @media only screen and (max-width: 480px) {
     .header_wrapper .call-us {
@@ -3393,6 +3404,12 @@ ul.paging a.active, ul.paging a.current {
 	}
 	.half-column-right{
 		width:100%;
+	}
+	.category-left{
+       width: 100%;
+	}
+	.category-right{
+       width: 100%;
 	}
 	.slides img{
 		height:250px;
