@@ -114,9 +114,15 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure
 	width:50%;
 	float:left;
 }
+.category-left img{
+    padding: 1px 2px 2px 2px;
+}
 .category-right{
 	width:50%;
 	float:right;
+}
+.category-right img{
+padding: 1px 2px 2px 1.5px;
 }
 #table-of-products{
 	margin-left: 70px;
