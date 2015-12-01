@@ -92,7 +92,7 @@
 				  the categories (with thumbnails) of our products. To see how the code of features looks, see the original 
 				  version of Road Fighter theme. */?>
       
-
+                <?php /* Category images on the homepage
                 <div class="category-left">
                     <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=18">
        	            <img src="<?php bloginfo('template_directory');?>/images/cosmeceutical.jpg"/ width="100%"></a>
@@ -101,7 +101,8 @@
                     <a href="http://localhost/myprojects/aptana/algae-wp-test/?cat=19">
        	            <img src="<?php bloginfo('template_directory'); ?>/images/nutraceutical.jpg"/ width="100%"></a>
                 </div>
-                 
+                */
+                ?> 
                 <?php
                 /* Hamed: 
 				 * Road-Fighter theme: we don't need the bottom tagline button that is represented with the text "View Portfolio".				  
@@ -128,6 +129,7 @@
 				 */
 				 ?>
             </div>
+            
        
         <div class="clear"></div>
    

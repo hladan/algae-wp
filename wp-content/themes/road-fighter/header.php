@@ -45,30 +45,18 @@
 	 * to be independent from the image. It means the header background will always be colorful, even for large screens.  
 	 */ 
 	 ?>
-     <div class="my-outer-header">               
-         <div class="headerleft"></div>
-         <div class="headerright"></div>                               
-         <div class="my-header-wrapper">    
-      		  <a href="http://algaeing.com">
+     <div class="menu-wrapper">
+            <div id="MainNav">
+              <a class="mobile_nav closed"><?php _e('MENU','rdf'); ?><span></span></a>
+              <?php roadfighter_nav(); ?> 
+          </div>   
+     </div> 
+     <div class="logo-wrapper">
+     	      <a href="http://algaeing.com">
       			 <div class="logo"></div>	
       		  </a>
-      		  
-             <?php /*
-              <div class="topnav">
-         	     <span class="light-green" style = 'font-size: 14px'><strong>CALL</strong></span>
-         	     &nbsp;
-         	     <span style = 'font-size: 18px'>+98(021) 88 37 50 61</span>
-              </div>
-			  */
-			  ?> 	  
-         </div>	      	                    	    	                    	
-     </div>	                                      
-     <div class="menu-wrapper">
-         <div id="MainNav">
-             <a class="mobile_nav closed"><?php _e('MENU','rdf'); ?><span></span></a>
-             <?php roadfighter_nav(); ?> 
-         </div>   
-     </div>                               
+     </div>		                                      
+                              
 <?php /* End of Hamed's code */ ?>
 <?php /* Original version of header.php */
 /*

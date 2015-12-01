@@ -173,15 +173,6 @@ th {
     margin-top:2px;
 }
 /* Hamed's code */
-.my-outer-header{	
-	margin-top:0;
-	margin-right:auto;
-	position:relative;
-	color:white;
-	height:105px;
-}
-/* End of Hamed's code */
-/* Hamed's code */
 .my-outer-header .headerleft{
 	height:105px;
 	width:50%;
@@ -207,19 +198,6 @@ th {
 }
 /* End of Hamed's code */
 /* Hamed's code */
-.my-outer-header .my-header-wrapper{
-    /* background-image:url(images/hwater.jpg);*/
-   /* background-image:url(images/header-clouds.jpg); */ 
-    background-position:center;
-    background-repeat:no-repeat;
-	height:105px;
-	position:relative;
-	z-index:2;
-    margin:0 auto;
-	text-align:left;
-}
-/* End of Hamed's code */
-/* Hamed's code */
 .my-outer-header .topnav{
 	margin-top: 10px;
 	margin-right: 10px;
@@ -227,15 +205,14 @@ th {
 }
 /* End of Hamed's code */
 /* Hamed's code */
-.logo{
- 	height:140px;
- 	width:206px;
+.logo-wrapper .logo{
+    display: block;
     background:url(images/algaeing-logo.png);
-    float:left;
-    margin-top: 1px;
-    margin-left: 15px;
+    height:140px;
+    width:206px;
+    position: relative;
+    top:5px;
 }
-/* End of Hamed's code */
 /* Hamed's code */
 .light-green{
 	color: #64F464;
@@ -274,11 +251,17 @@ th {
 	/* Hamed's code */
     /* background image of the navigation menu changed to "navbg.png". */
 	/* background:url(images/navbg.png) repeat; */
-	background-color: #005793;
-    padding:3px; 
-    margin-top: 35px;   
+	 background-color: #005793; 
+	/*   background-color: #FFFFFF; */
+    /* background:rgba(255,255,255,0.65); /* transparent color */
+    /* background:url(images/menu-bg.png) repeat;*/   
+     padding:3px; 
+     display: block;
+     position: relative;
+     top: 0px;
+    /* margin-top: 35px;  */ 
     /* End of Hamed's code */
-    
+      
     /* Original version of this block 
     background:rgba(255,255,255,0.85);
     background:url(images/menu-bg.png) repeat;
@@ -318,9 +301,9 @@ th {
     position:relative;
     z-index:10;
     /* The margin between a menu item and the border of navigation menu. */
-    margin-top: 9px;
-    margin-bottom: 9px;
-    margin-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 170px;
 }
 /* The margin between a menu item and the border of navigation menu. This is a setting for Firefox. */
 @-moz-document url-prefix() {
@@ -356,11 +339,11 @@ th {
 #menu .ddsmoothmenu li a {
     /* color:#444; */
     /* Hamed's code */
-    /* The font color of the menu items changed to white. */ 
-    color: #FFFFFF;
+    /* The font color of the menu items changed to: */ 
+       color: #FFFFFF;   
     /* End of Hamed's code */
     text-decoration:none;
-    padding: 14.5px 16px 17px 18px;
+    padding: 6px 16px 8px 18px;
 }
  #menu li.current-menu-item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {   
     /* color: #f6860e; */
@@ -369,19 +352,20 @@ th {
     /* color: #88D088; */
     /* The background color of the menu items changes when the mouse hovers over the items. */ 
        background: none;
-       background-color: #3696D9;
+      background-color: #3696D9;
+    /* background-color: #A0A0A0; */
     /* End of Hamed's code */ 
 }
 #menu .ddsmoothmenu li > ul {
     /* Submenu: if a menu item that has subcategories is hovered, a submenu shows up. */
-    margin-top:17px; 
-    padding-top:4px;
-    padding-left:4px;
-    padding-right:4px;
-    padding-bottom:4px;
+    margin-top:8px; 
+    padding-top:1px;
+    padding-left:1px;
+    padding-right:1px;
+    padding-bottom:1px;
   /*  margin-left:5px; */
-    background-color: #005793;
-
+  /*  background-color: #005793; */
+   background-color: #005793; 
 }
 #menu li li a, #menu li li a.selected, #menu li li a:hover {
     border:none;
@@ -400,7 +384,8 @@ th {
     /* background:url(images/menu-bg.png) repeat; */
     /* The background color of items on a submenu is changed when they are hovered. */
     background: none;
-    background-color: #3696D9;
+    background-color: #3696D9; 
+   /* background-color: #C0C0C0; */
 }
 #menu .ddsmoothmenu li li a {
     /* The setting for items of a submenu. */
@@ -411,11 +396,12 @@ th {
     text-align:left;
     position:relative;
     margin:0;
-    padding:10px 0;
+    padding:5px 0;
     margin-left:14px;
     margin-right:14px;
     text-transform:capitalize;
-    border-bottom:1px solid #ccc; /* Opposite of "solid" is "dotted". This creates a line between items of a submenu. */
+/*    border-bottom:1px solid #ccc; /* Opposite of "solid" is "dotted". This creates a line between items of a submenu. */
+    border-bottom:1px solid #FFFFFF;
     background: url('images/arrow.png') no-repeat 0 14px;
     padding-left:0px;
     text-shadow:none;
@@ -596,6 +582,8 @@ th {
 	   background: #FFFFFF;
     /* End of Hamed's code */
     overflow:hidden;
+    margin-top:-60px;
+    margin-top:-200px;
     /* padding-bottom:10px; */
 }
 .slider-wrapper {
@@ -823,6 +811,8 @@ html[xmlns] .slides {
 	   The container also contains a button with the text "View Portfolio".  
 	 */   
 	background: #FFFFFF; 
+
+
 }
 /* End of Hamed's code */
 .home-content .page_info{
@@ -1264,6 +1254,11 @@ html[xmlns] .slides {
     50% { transform: scale(1.1); }
     100% { transform: scale(1); }
 }
+/* The following height provides a blank gap between the page contents and the footer. */
+.page-container{
+	min-height:100%;
+	position:relative;
+}
 .footer_container{
   /*  background:#d8621f url(images/footerbg.png) center repeat-y;*/
     /* The background color of the footer is changed and the background image is removed.*/
@@ -1410,6 +1405,7 @@ html[xmlns] .slides {
 /* The background color is changed to #143336 */ 	
    /* background:#143336; */
     background: #005793;
+    bottom: 0; 
    /* border-top:1px solid #fb955d; */
 }
 .bottom_footer_container ul.social_logos{

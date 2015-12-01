@@ -35,7 +35,6 @@
                             <div class="clear"></div>
                             <?php wp_link_pages(array('before' => '<div class="page-link"><span>' . __('Pages:', 'rdf') . '</span>', 'after' => '</div>')); ?>
                         <?php endif; ?>
-                        <div class="warning"></div>
                     </div>
                     <?php 
                       /* Hamed: we don't need users to comment on our pages. */				 
