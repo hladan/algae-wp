@@ -214,6 +214,15 @@ th {
     top:5px;
 }
 /* Hamed's code */
+.motto-wrapper .motto{
+  /*  display: block; */
+    background:url(images/motto3.png);
+    height:100px;
+    width:500px;
+    position: absolute;
+    margin-left: 43px;
+    top:180px; 
+}
 .light-green{
 	color: #64F464;
 }

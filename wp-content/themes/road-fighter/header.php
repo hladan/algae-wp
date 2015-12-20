@@ -55,8 +55,8 @@
      	      <a href="http://algaeing.com">
       			 <div class="logo"></div>	
       		  </a>
-     </div>		                                      
-                              
+     </div>	
+                  
 <?php /* End of Hamed's code */ ?>
 <?php /* Original version of header.php */
 /*

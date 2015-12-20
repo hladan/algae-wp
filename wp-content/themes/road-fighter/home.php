@@ -9,6 +9,11 @@
     <div class="slider-wrapper">
         <!--Start Slider Wrapper-->
        <!-- <div class="flexslider"> -->
+            <div class="motto-wrapper">
+     	     
+      			 <div class="motto"></div>	
+      		  
+            </div>	
             <div class="slides">
                <!-- <li> -->
                     <?php if (roadfighter_get_option('roadfighter_slideimage1') != '') { ?>
