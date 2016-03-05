@@ -9,11 +9,17 @@
     <div class="slider-wrapper">
         <!--Start Slider Wrapper-->
        <!-- <div class="flexslider"> -->
-            <div class="motto-wrapper">
+          <!--  <div class="motto-wrapper">
      	     
       			 <div class="motto"></div>	
       		  
+          </div> -->
+           <!-- <div class="campaign-wrapper">
+     	       <a href="http://www.in-cosmetics.com/" target="_blank">
+      			 <div class="campaign"></div>	
+      		   </a>
             </div>	
+            -->	
             <div class="slides">
                <!-- <li> -->
                     <?php if (roadfighter_get_option('roadfighter_slideimage1') != '') { ?>
@@ -30,7 +36,7 @@
                         <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt="Slide Image 1"/>
                             <?php } ?>
                            
-                    <?php /*        
+                   
                     <div class="flex-caption-wrapper">
                         <div class="flex-caption">
                             <?php if (roadfighter_get_option('roadfighter_sliderheading1') != '') { ?>
@@ -38,28 +44,25 @@
                                 echo esc_url(roadfighter_get_option('roadfighter_Sliderlink1'));
                             } ?>"><?php echo stripslashes(roadfighter_get_option('roadfighter_sliderheading1')); ?></a></h1>
                                 <?php } else { ?>
-                                <h1><a href="#">Premium WordPress Themes with Single Click Installation</a></h1>
+                                <h1><a href="#"></a></h1>
                             <?php } ?>
                             <?php if (roadfighter_get_option('roadfighter_sliderdes1') != '') { ?>
                                 <p>					   
                                 <?php echo stripslashes(roadfighter_get_option('roadfighter_sliderdes1')); ?>
                                 </p>
                             <?php } else { ?>
-                                <p><?php _e('Premium WordPress Themes with Single Click Installation, Just a Click and your website is ready for use.Premium WordPress Themes.','rdf'); ?> </p>
+                                <p><?php // _e('Premium WordPress Themes with Single Click Installation, Just a Click and your website is ready for use.Premium WordPress Themes.','rdf'); ?> </p>
                             <?php } ?>
                             <?php if (roadfighter_get_option('roadfighter_slider_button1') != '') { ?>
                                 <a class="slider-readmore" href="<?php if (roadfighter_get_option('roadfighter_Sliderlink1') != '') {
                                 echo roadfighter_get_option('roadfighter_Sliderlink1');
                             } ?>"><span><?php echo stripslashes(roadfighter_get_option('roadfighter_slider_button1')); ?></span></a>
                             <?php } else { ?>
-                                <a class="slider-readmore" href="<?php if (roadfighter_get_option('roadfighter_Sliderlink1') != '') {
-                                echo roadfighter_get_option('roadfighter_Sliderlink1');
-                            } ?>"><span><?php _e('Read More','rdf'); ?></span></a>
+                                <a class="slider-readmore" href="http://www.in-cosmetics.com/" target="_blank"><span class="txt"><?php _e('Visit us here','rdf'); ?></span></a>
                         <?php } ?>
                         </div>
                     </div>
-                    */
-                    ?>
+                   
                <!-- </li> -->
             </div>
        <!-- </div> -->
@@ -68,11 +71,8 @@
 </div>
 </div>
 <div class="clear"></div>
-<div class="home_container">
-   
-
-            <div class="home-content">
-
+<div class="home_container">  
+      <div class="home-content">     
                 <?php /* Hamed: we don't need a page info now. 
 				 
                 <div class="page_info">

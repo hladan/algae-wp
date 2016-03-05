@@ -173,46 +173,36 @@ th {
     margin-top:2px;
 }
 /* Hamed's code */
-.my-outer-header .headerleft{
-	height:105px;
-	width:50%;
-	position:absolute;
-	top:0;
-	left:0;
-	/* background-color:#143637; */
-	/* background-color:#4695fa; */
-	background-color:#FFFFFF;
+ #my_header{
+    /* padding: 25px 10px;*/
+    height: 170px;
+    border-bottom: 1px solid #d3d3d3; 
+    overflow: no-content;
+    width: 100%; 
+} 
+div#my_header div {
+    display: inline-block;
+    padding: 1% 0;
+    /*  margin: 0 2%; */
+    text-align: center;
+    /*  border: 4px dashed; /* Useful for positioning */
+    font-size: 2em;
 }
-/* End of Hamed's code */
-/* Hamed's code */
-.my-outer-header .headerright{
-	height:105px;
-	width:50%;
-	position:absolute;
-	left:auto;
-	top:0;
-	right:0;
-	/* background-color: #759ea2; */
-	/* background-color:#2d85ef; */
-	background-color:#FFFFFF;
+#header-left {
+    width: 20%;
 }
-/* End of Hamed's code */
-/* Hamed's code */
-.my-outer-header .topnav{
-	margin-top: 10px;
-	margin-right: 10px;
-	float:right;
+#header-right {
+    width: 79.65%;
 }
-/* End of Hamed's code */
-/* Hamed's code */
 .logo-wrapper .logo{
-    display: block;
+   /* display: block; */
     background:url(images/algaeing-logo.png);
     height:140px;
-    width:206px;
-    position: relative;
-    top:5px;
+    width:206px; 
+    position:relative; 
+   /* top:5px; */
 }
+
 /* Hamed's code */
 .motto-wrapper .motto{
   /*  display: block; */
@@ -672,11 +662,13 @@ html[xmlns] .slides {
     position:relative;
 }
 .flex-caption {
-    background:url(images/caption-bg.png) repeat-x;
-    padding:0 12px;
+   /* background:url(images/caption-bg.png) repeat-x; */
+    background:url(images/InCosmetics.jpg) no-repeat;
+    padding:125px 125px 125px 125px;
     margin: 0;
     position: absolute;
-    right:6.8%;
+    /* right:6.8%; */
+    left:6.8%;
     bottom:40px;
     color: #fafafa;
     font-size: 13px;
@@ -699,13 +691,19 @@ html[xmlns] .slides {
     position:absolute;
     left:-9px;
     bottom:6%;
+    text-decoration:none;
 }
+
 .flex-caption a.slider-readmore span{
     color:#fff;
     background:url(images/slider-tip.png) left center no-repeat;
     margin-left: 21px;
     padding-left:11px;
     line-height:24px;
+}
+.flex-caption a.slider-readmore span.txt:hover{
+    color:#C0C0C0;
+
 }
 .flex-caption h1 {
     margin-bottom:10px;
@@ -3288,7 +3286,6 @@ ul.paging a.active, ul.paging a.current {
      padding-left: 15px;
      padding-right: 15px;
    }
-
 }
 @media only screen and (max-width: 480px) {
     .header_wrapper .call-us {

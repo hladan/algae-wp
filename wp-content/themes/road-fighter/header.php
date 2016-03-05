@@ -22,7 +22,6 @@
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" /> 
         <?php wp_head(); ?>  
         
-
     </head>
     <body <?php body_class(); ?> style="background:url('<?php
     if (roadfighter_get_option('roadfighter_bodybg') != '') {
@@ -47,16 +46,26 @@
 	 ?>
      <div class="menu-wrapper">
             <div id="MainNav">
-              <a class="mobile_nav closed"><?php _e('MENU','rdf'); ?><span></span></a>
+              <a class="mobile_nav closed"><?php _e('MENU','rdf'); ?><span></span></a> 
               <?php roadfighter_nav(); ?> 
+                           
           </div>   
+       
      </div> 
-     <div class="logo-wrapper">
+   
+   
+      <div id="my_header">
+        <div id="header-left">
+            <div class="logo-wrapper">
      	      <a href="http://algaeing.com">
       			 <div class="logo"></div>	
       		  </a>
-     </div>	
-                  
+       </div>	
+        </div>
+        <div id="header-right">
+           
+        </div>
+    </div>            
 <?php /* End of Hamed's code */ ?>
 <?php /* Original version of header.php */
 /*
